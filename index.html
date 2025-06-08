@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamming SEC-DED Simülatörü</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Hamming SEC-DED Simülatörü</h1>
+
+    <div class="container">
+        <section class="input-section">
+            <h2>1. Veri Girişi</h2>
+            <p>Lütfen 8, 16 veya 32 bitlik ikili (0 ve 1'lerden oluşan) bir veri girin.</p>
+            <input type="text" id="dataInput" placeholder="Örnek: 10110010">
+            <button id="encodeButton">Veriyi Kodla</button>
+            <p id="inputError" class="error-message"></p>
+        </section>
+
+        <section class="encoded-data-section">
+            <h2>2. Kodlanmış Veri (Hamming Kodu)</h2>
+            <div id="encodedOutput" class="bit-display">
+            </div>
+            <p id="encodedText"></p>
+        </section>
+
+        <section class="error-injection-section">
+            <h2>3. Hata Ekleme (Simülasyon)</h2>
+            <p>Kodlanmış veriye bir hata eklemek için bir bit konumu girin (1'den başlayarak) veya çift hata ekleyin.
+            </p>
+            <input type="number" id="errorPositionInput" placeholder="Hata konumu (örn: 3)">
+            <button id="injectSingleErrorButton">Tek Hata Ekle</button>
+            <button id="injectDoubleErrorButton">Çift Hata Ekle</button>
+            <p id="errorInjectionMessage" class="info-message"></p>
+        </section>
+
+        <section class="correction-section">
+            <h2>4. Hata Kontrolü ve Düzeltme</h2>
+            <button id="checkAndCorrectButton">Kontrol Et ve Düzelt</button>
+            <p id="syndromeOutput"></p>
+            <p id="correctionResult"></p>
+            <div id="correctedOutput" class="bit-display">
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
