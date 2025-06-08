@@ -7,7 +7,7 @@ Proje sunumuna ait YouTube videosuna [buradan]() ulaşabilirsiniz.
 
 ## Kurulum ve Çalıştırma
 
-Projeye [buradan]() ulaşabilirsiniz.
+Projeye [buradan](https://mlkyzgt.github.io/Hamming_Code_Simulator/) ulaşabilirsiniz.
 
 ## Proje Açıklaması
 
