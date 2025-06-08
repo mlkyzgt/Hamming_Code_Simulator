@@ -3,7 +3,7 @@
 Bu proje, **Hamming Tek Hata Düzeltme (SEC) ve Çift Hata Tespit (DED)** kodlama prensiplerini interaktif bir web arayüzü üzerinden simüle eden bir araçtır. Kullanıcıların ikili veri girmesine, bu veriyi Hamming kodu ile kodlamasına, tek veya çift hata eklemesine ve ardından kodun bu hataları nasıl tespit edip tek hataları düzelttiğini gözlemlemesine olanak tanır.
 
 ## Proje Sunumu
-Proje sunumuna ait YouTube videosuna [buradan]() ulaşabilirsiniz.
+Proje sunumuna ait YouTube videosuna [buradan](https://www.youtube.com/watch?v=DDAdMSyhcKc) ulaşabilirsiniz.
 
 ## Kurulum ve Çalıştırma
 
