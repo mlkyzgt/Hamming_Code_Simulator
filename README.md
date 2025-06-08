@@ -11,19 +11,11 @@ Projeye [buradan](https://mlkyzgt.github.io/Hamming_Code_Simulator/) ulaşabilir
 
 ## Proje Açıklaması
 
-Günümüz dijital dünyasında verilerin güvenilir bir şekilde iletilmesi hayati önem taşımaktadır. Ancak veri iletimi sırasında, elektromanyetik parazitler, sinyal bozulmaları veya donanım arızaları gibi çeşitli nedenlerle bit hataları meydana gelebilir. Bu hatalar, iletilen bilginin bütünlüğünü bozarak yanlış yorumlanmasına yol açabilir.
-
-Bu projenin temel amacı, Bilgi Teorisi ve Dijital Haberleşme derslerinde önemli bir yer tutan Hamming kodunun çalışma prensibini somut bir şekilde göstermektir. Geliştirilen bu simülatör, soyut matematiksel kavramları interaktif bir kullanıcı arayüzü ile birleştirerek öğrenmeyi kolaylaştırır. Özellikle:
-
-* **Veri Kodlama Süreci:** Giriş verisinin nasıl parity bitleriyle genişletilerek hata toleranslı bir koda dönüştürüldüğünü adım adım görselleştirir.
-* **Hata Enjeksiyonu:** Kullanıcının kontrollü bir şekilde tek veya çift hata eklemesine izin vererek, gerçek dünya senaryolarındaki veri bozulmalarını taklit etme imkanı sunar.
-* **Hata Tespiti ve Düzeltme Mekanizması:** Sendrom bitlerinin hesaplanması ve genel parity kontrolünün nasıl kullanılarak hataların konumunun belirlendiğini ve tek hataların nasıl otomatik olarak düzeltildiğini anlaşılır kılar. Çift hataların ise tespit edilmesine rağmen Hamming SEC-DED kodu ile düzeltilemediğini vurgular.
-
-Bu araç, özellikle mühendislik ve bilgisayar bilimi öğrencileri için Hamming kodunu kavramsal olarak anlamalarına yardımcı olacak değerli bir öğrenme aracı olarak tasarlanmıştır.
+Bu proje, dijital verilerde oluşabilecek hataları tespit edip düzelten Hamming Kodu'nu görsel olarak anlatan basit bir web aracıdır.
 
 ## Proje Hakkında
 
-İletişim sistemlerinde veriler aktarılırken gürültü nedeniyle hatalar oluşabilir. Hamming kodu, bu hataları tespit etmek ve belirli sınırlar içinde düzeltmek için kullanılan güçlü bir ileri hata düzeltme (FEC) tekniğidir. Bu simülatör, Hamming kodunun temel mantığını görsel ve etkileşimli bir şekilde anlamanıza yardımcı olmayı amaçlar.
+İletişim sistemlerinde veriler aktarılırken gürültü nedeniyle hatalar oluşabilir. Hamming kodu, bu hataları tespit etmek ve belirli sınırlar içinde düzeltmek için kullanılan güçlü bir ileri hata düzeltme tekniğidir. Bu simülatör, Hamming kodunun temel mantığını görsel ve etkileşimli bir şekilde anlamanıza yardımcı olmayı amaçlar.
 
 **Özellikler:**
 
@@ -36,12 +28,12 @@ Bu araç, özellikle mühendislik ve bilgisayar bilimi öğrencileri için Hammi
     * Gönderilen veri üzerindeki hataları tespit etmek için sendrom bitlerini ve genel parity kontrolünü hesaplar.
     * Tek hataları otomatik olarak düzeltir ve düzeltilmiş veriyi gösterir.
     * Çift hataları tespit eder ancak bu kodlama şeması ile düzeltilemeyeceğini bildirir.
-* **Anlaşılır Geri Bildirim:** Hata durumları, sendrom değerleri ve düzeltme sonuçları kullanıcıya açık mesajlarla sunulur.
+* **Geri Bildirim:** Hata durumları, sendrom değerleri ve düzeltme sonuçları kullanıcıya açık mesajlarla sunulur.
 
 ## Kullanılan Teknolojiler
 
 * **HTML5:** Projenin yapısal iskeleti için.
-* **CSS:** Görsel tasarım ve kullanıcı arayüzü stilizasyonu için.
+* **CSS:** Görsel tasarım ve kullanıcı arayüzü stili için.
 * **JavaScript:** Dinamik etkileşimler, Hamming kodlama/kod çözme algoritmaları ve hata işleme mantığı için.
 
 ## Nasıl Kullanılır?
